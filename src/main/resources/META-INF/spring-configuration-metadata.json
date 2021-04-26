@@ -1,0 +1,71 @@
+{
+  "groups": [
+    {
+      "name": "api.hunter",
+      "type": "com.wangxiaobao.apihunter.config.ConfigProperties",
+      "sourceType": "com.wangxiaobao.apihunter.config.ConfigProperties"
+    },
+    {
+      "name": "api.hunter.dc-reporter",
+      "type": "com.wangxiaobao.apihunter.config.ConfigProperties$DcReporter",
+      "sourceType": "com.wangxiaobao.apihunter.config.ConfigProperties",
+      "sourceMethod": "getDcReporter()"
+    },
+    {
+      "name": "api.hunter.springmvc",
+      "type": "com.wangxiaobao.apihunter.config.ConfigProperties$Springmvc",
+      "sourceType": "com.wangxiaobao.apihunter.config.ConfigProperties",
+      "sourceMethod": "getSpringmvc()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "api.hunter.dc-reporter.app-name",
+      "type": "java.lang.String",
+      "sourceType": "com.wangxiaobao.apihunter.config.ConfigProperties$DcReporter"
+    },
+    {
+      "name": "api.hunter.dc-reporter.application-name",
+      "type": "java.lang.String",
+      "sourceType": "com.wangxiaobao.apihunter.config.ConfigProperties$DcReporter"
+    },
+    {
+      "name": "api.hunter.dc-reporter.topic",
+      "type": "java.lang.String",
+      "sourceType": "com.wangxiaobao.apihunter.config.ConfigProperties$DcReporter"
+    },
+    {
+      "name": "api.hunter.feign-enable",
+      "type": "java.lang.Boolean",
+      "description": "feign 开关",
+      "sourceType": "com.wangxiaobao.apihunter.config.ConfigProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "api.hunter.rest-template-enable",
+      "type": "java.lang.Boolean",
+      "description": "restTemplate 开关",
+      "sourceType": "com.wangxiaobao.apihunter.config.ConfigProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "api.hunter.retrifit2-enable",
+      "type": "java.lang.Boolean",
+      "description": "retrifit2 开关",
+      "sourceType": "com.wangxiaobao.apihunter.config.ConfigProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "api.hunter.springmvc.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.wangxiaobao.apihunter.config.ConfigProperties$Springmvc",
+      "defaultValue": false
+    },
+    {
+      "name": "api.hunter.springmvc.pointcut",
+      "type": "java.lang.String",
+      "sourceType": "com.wangxiaobao.apihunter.config.ConfigProperties$Springmvc"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,4 @@
+#-------starter×Ô¶¯×°Åä---------
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.wangxiaobao.apihunter.config.ApiHunterAutoConfig,\
+com.wangxiaobao.apihunter.aop.SpringMvcAdvisor
